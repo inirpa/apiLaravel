@@ -9,4 +9,4 @@ composer.phar
 /storage/*.key
 Homestead.yaml
 Homestead.json
-.env
+
