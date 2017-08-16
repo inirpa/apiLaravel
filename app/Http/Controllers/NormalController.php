@@ -9,7 +9,8 @@ class NormalController extends Controller
     //
     public function getUsers(){
     	$client = new \GuzzleHttp\Client();
-		$res = $client->request('GET', 'localhost:8000/apitest/public/getUsers');
+		//$res = $client->request('GET', 'localhost:8000/apitest/public/getUsers');
+		$res = $client->request('GET', 'hoteltest.co.nf/getUsers');
 //echo $res->getStatusCode();
 // 200
 //echo $res->getHeaderLine('content-type');
